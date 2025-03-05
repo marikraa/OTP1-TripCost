@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Itz-Ezu/OTP1_week7.git'
+                git 'https://github.com/marikraa/OTP1-TripCost.git'
             }
         }
         stage('Run Tests') {
