@@ -13,6 +13,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -27,7 +28,9 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
     <build>
+        <finalName>TripCostCalculatorTest</finalName>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
